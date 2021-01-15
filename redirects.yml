@@ -1,5 +1,5 @@
-- from: /me
-  to: https://github.com/ThewBear
+- from: /github
+  to: https://github.com/HodeUK
   status: 308 # Change status code ex. 301, 302, 307 (Default), 308
 - from: /google/:q # Match exactly one ex. /google/recursion
   to: https://google.com/search?q=:q
@@ -20,3 +20,5 @@
   to: https://dev.to/:user
   query:
     u: :user? # Optional match ex. /dev /dev?u=thewbear
+- from: /hode
+  to: https://www.hode.uk
